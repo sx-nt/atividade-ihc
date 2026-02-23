@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'DM Sans', sans-serif;
+}
+
+body{
+    background:#CBCBF0;
+}
+
+.background{
+    padding:60px 0;
+}
+
+.container{
+    width:1200px;
+    margin:auto;
+    background:#EEEEEE;
+    border-radius:40px;
+    overflow:hidden;
+}
+
+/* NAVBAR */
+.navbar{
+    background:#D9DEFF;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:30px 60px;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#5E5BFB;
+}
+
+.logo img{
+    width:60px;
+}
+
+.menu{
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+
+.menu a{
+    text-decoration:none;
+    color:black;
+    font-weight:500;
+}
+
+.btn{
+    background:#423FE6;
+    color:white !important;
+    padding:10px 25px;
+    border-radius:8px;
+}
+
+/* HERO */
+.hero{
+    display:flex;
+    justify-content:space-between;
+    padding:80px 60px;
+    gap:40px;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:32px;
+    color:#2E2E6E;
+}
+
+.highlight{
+    color:#5E5BFB;
+}
+
+.hero-text h2{
+    color:#5E5BFB;
+    margin:10px 0;
+}
+
+.hero-text p{
+    margin-top:30px;
+    color:#555;
+    line-height:1.6;
+}
+
+.hero-images{
+    position:relative;
+    width:50%;
+}
+
+.img-small{
+    width:250px;
+    border-radius:20px;
+}
+
+.img-big{
+    width:320px;
+    border-radius:20px;
+    position:absolute;
+    right:0;
+    top:-40px;
+}
+
+.info-box{
+    position:absolute;
+    bottom:-40px;
+    right:0;
+    width:280px;
+    background:#7D7AFB;
+    color:white;
+    padding:15px;
+    border-radius:15px;
+    font-size:14px;
+}
+
+/* SEÇÕES */
+.section{
+    padding:80px 60px;
+}
+
+.section h2{
+    font-size:32px;
+    color:#161E64;
+    margin-bottom:20px;
+}
+
+.section p{
+    color:#555;
+    line-height:1.7;
+}
+
+.services{
+    display:flex;
+    justify-content:space-between;
+    margin-top:40px;
+}
+
+.card{
+    text-align:center;
+}
+
+.card img{
+    width:300px;
+    height: 200px;
+    border-radius:20px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card h3{
+    margin-top:15px;
+    color:#5E5BFB;
+}
+
+/* MAPA */
+.center{
+    text-align:center;
+}
+
+.map{
+    width:300px;
+    margin-top:30px;
+}
+
+/* FOOTER */
+footer{
+    background:#D9DEFF;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+    color:#777;
+}
+
+/* Ícones Navbar */
+.menu a i{
+    margin-right:8px;
+}
+
+/* Footer */
+footer{
+    background:#D9DEFF;
+    text-align:center;
+    padding:30px;
+}
+
+.social{
+    margin-bottom:15px;
+}
+
+.social i{
+    font-size:22px;
+    margin:0 15px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.social i:hover{
+    color:#5E5BFB;
+}
+
+html{
+    scroll-behavior:smooth;
+}
