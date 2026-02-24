@@ -37,8 +37,11 @@ body{
     color:#5E5BFB;
 }
 
+
+
 .logo img{
     width:60px;
+    filter: brightness(160%) saturate(120%);
 }
 
 .menu{
