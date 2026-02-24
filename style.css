@@ -56,11 +56,19 @@ body{
     font-weight:500;
 }
 
+.menu a:hover{
+    color: #3d3d3d;
+}
+
 .btn{
     background:#423FE6;
     color:white !important;
     padding:10px 25px;
     border-radius:8px;
+}
+
+.btn:hover{
+    background: #423fe6da ;
 }
 
 /* HERO */
